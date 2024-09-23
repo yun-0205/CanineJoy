@@ -130,6 +130,10 @@ header {
 	align-items: center;
 }
 
+.sidebar-filter {
+	margin-right: 24px;
+}
+
 .sidebar-filter-title {
   background-color: var(--primary-100);
   width: 200px;
@@ -162,6 +166,76 @@ header {
   flex-direction: column;
   gap: 16px;
   margin: 24px 0 64px;
+}
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+
+.products > div {
+	background-color: var(--background-white);
+	border: 1px solid var(--textfields-outline);
+	border-radius: 10px;
+	width: 160px;
+	padding: 16px 24px;
+}
+
+.products h2 {
+	color: var(--text-primary);
+	font-size: var(--S1-16);
+	font-weight: var(--semiBold);
+	margin-bottom: 24px;
+}
+
+.products-img {
+	width: 160px;
+	margin-bottom: 16px;
+}
+
+.products-price-title > p {
+	color: var(--text-primary);
+	font-size: var(--B1-14);
+	font-weight: var(--regular);
+	margin-bottom: 4px;
+}
+
+.products-price {
+	display: flex;
+}
+
+.products-price h6 {
+	color: var(--state-error);
+	font-size: var(--S1-16);
+	font-weight: var(--semiBold);
+	margin-right: 4px;
+}
+
+.products-price p {
+	color: var(--text-secondary);
+	font-size: var(--B1-14);
+	font-weight: var(--regular);
+}
+
+.products-price-bag {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.products-price-bag > img {
+	background-color: var(--primary-500);
+	border-radius: 10px;
+	padding: 8px;
+	width: 24px;
+	height: 24px;
+}
+
+main {
+	display: flex;
+	padding: 88px 150px;
+	align-items: start;
 }
 
 .footer-logo-title {
