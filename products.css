@@ -154,7 +154,7 @@ header {
 	border-radius: 5px;
 	padding: 0 12px;
 	appearance: none;
-	background: url(/icon/arrow_down_dark.svg) no-repeat right;
+	background: var(--background-white) url(/icon/arrow_down_dark.svg) no-repeat right;
 	background-position: calc(100% - 8px) center
 }
 
@@ -237,7 +237,7 @@ header {
 	border-radius: 5px;
 	position: absolute;
 	padding: 10px 12px;
-	top: 256px;
+	bottom: 48px;
 	left: 24px;
 	content: 'Information';
 }
@@ -436,7 +436,7 @@ main {
 }
 
 /* 手機 */
-@media screen and (max-width:550px) {
+@media screen and (max-width:600px) {
 	.mobile-menu {
 		display: block;
 		width: 32px;

@@ -389,7 +389,7 @@ header {
 }
 
 /* 手機 */
-@media screen and (max-width:550px) {
+@media screen and (max-width:600px) {
 	.mobile-menu {
 		display: block;
 		width: 32px;
