@@ -1,7 +1,9 @@
+//Block1 Button Redirect to Product Page
 document.getElementById("block1-button").addEventListener("click", function() {
   window.location.href = "products.html";
 });
 
+//Header Dropdown Profile
 const headerProfile = document.querySelector('.header-profile');
 const dropdownProfile = document.querySelector('.account-profile-logout');
 
@@ -21,19 +23,7 @@ document.addEventListener('click', function(event) {
   }
 });
 
-// let isLoggedIn = false;
-
-// const loggedInSection = document.querySelector('.login');
-// const loggedOutSection = document.querySelector('.logout');
-
-// if (isLoggedIn) {
-//   loggedInSection.style.display = 'block';
-//   loggedOutSection.style.display = 'none';
-// } else {
-//   loggedInSection.style.display = 'none';
-//   loggedOutSection.style.display = 'block';
-// }
-
+//Mobile Menu
 function showMenu() {
   document.querySelector('.overlay').style.display = 'block';
   document.querySelector('.mobile-menu-logout').style.display = 'block';
