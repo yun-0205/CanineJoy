@@ -658,6 +658,12 @@ main {
 	font-weight: var(--regular);
 }
 
+.empty-cart {
+	display: none;
+	text-align: center;
+	padding-top: 8px;
+}
+
 /* 平板 */
 @media screen and (max-width:1308px) {
 	.mobile-menu {

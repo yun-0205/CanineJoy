@@ -1,9 +1,9 @@
-//Block1 Button Redirect to Product Page
+//Block1 button redirect to product page
 document.getElementById("block1-button").addEventListener("click", function() {
   window.location.href = "products.html";
 });
 
-//Header Dropdown Profile
+//Header dropdown profile
 const headerProfile = document.querySelector('.header-profile');
 const dropdownProfile = document.querySelector('.account-profile-logout');
 
@@ -23,7 +23,7 @@ document.addEventListener('click', function(event) {
   }
 });
 
-//Mobile Menu
+//Mobile menu
 function showMenu() {
   document.querySelector('.overlay').style.display = 'block';
   document.querySelector('.mobile-menu-logout').style.display = 'block';
