@@ -1,6 +1,6 @@
 //Header dropdown profile
 const headerProfile = document.querySelector('.header-profile');
-const dropdownProfile = document.querySelector('.account-profile-logout');
+const dropdownProfile = document.querySelector('.account-profile-login');
 
 dropdownProfile.style.display = 'none'; 
 
@@ -21,12 +21,12 @@ document.addEventListener('click', function(event) {
 //Mobile menu
 function showMenu() {
   document.querySelector('.overlay').style.display = 'block';
-  document.querySelector('.mobile-menu-logout').style.display = 'block';
+  document.querySelector('.mobile-menu-login').style.display = 'block';
 }
 
 function hideMenu() {
   document.querySelector('.overlay').style.display = 'none';
-  document.querySelector('.mobile-menu-logout').style.display = 'none';
+  document.querySelector('.mobile-menu-login').style.display = 'none';
 }
 
 document.querySelector('.mobile-menu').addEventListener('click', showMenu);

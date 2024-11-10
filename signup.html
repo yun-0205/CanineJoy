@@ -7,7 +7,7 @@
 	<meta name="description" content="Explore the best products for dogs on CanineJoy. Find everything your pet needs.">
 	<title>CanineJoy - Products for Dogs</title>
 	<link rel="stylesheet" href="spec.css">
-	<link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="signup.css">
 </head>
 
 <body>
@@ -53,22 +53,31 @@
 
 <section>
   <form>
-    <h1>Login</h1>
+    <h1>Create Account</h1>
     <label for="account">Account</label><br>
     <input type="text" placeholder="Enter your account"><br>
-    <label for="password">Password</label>
-    <div class="login-input-forgetpassword">
+    <label for="account">Email</label><br>
+    <input type="text" placeholder="caninejoy@example.com"><br>
+    <label for="password">Password</label><br>
+    <div class="login-input-terms-of-service">
       <div class="login-password-input">
         <input type="password" placeholder="Enter your password">
         <img src="/icon/eye_close.svg" alt="Hide">
       </div>
-      <a href="#">Forget Password?</a>
+      <div class="terms-of-service">
+        <div>
+          <input type="checkbox">
+        </div>
+        <p>
+          I agree with CanineJoy's <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+        </p>
+      </div>
     </div>
     <div>
       <input class="login-button" type="submit" value="Login">
       <div class="login-signup">
-        <p>Not a member yet?</p>
-        <a href="signup.html">Sign Up Now</a>
+        <p>Already have an account?</p>
+        <a href="login.html">Log in</a>
       </div>
     </div>
   </form>
@@ -183,8 +192,8 @@
         <img src="/icon/arrow_right.svg" alt="Arrow">
       </div>
       <div class="mobile-menu-bottom">
-        <a href="#">Log In</a>
-        <a href="#">Sign Up</a>
+        <a href="login.html">Log In</a>
+        <a href="signup.html">Sign Up</a>
       </div>
     </div>
   </div>
@@ -215,7 +224,7 @@
     <button class="checkout" type="button">Go to Checkout</button>
   </div>
 
-  <script src="login.js"></script>
+  <script src="signup.js"></script>
 </body>
 
 </html>

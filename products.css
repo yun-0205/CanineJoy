@@ -524,6 +524,12 @@ main {
 	border-bottom: 1px solid var(--text-divider);
 }
 
+.mobile-menu-profile-name h4 {
+	color: var(--text-primary);
+	font-size: var(--S1-16);
+	font-weight: var(--semiBold);
+}
+
 .mobile-menu-list {
 	display: flex;
 	justify-content: space-between;

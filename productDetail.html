@@ -7,7 +7,7 @@
 	<meta name="description" content="Explore the best products for dogs on CanineJoy. Find everything your pet needs.">
 	<title>CanineJoy - Products for Dogs</title>
 	<link rel="stylesheet" href="spec.css">
-	<link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="productDetail.css">
 </head>
 
 <body>
@@ -52,26 +52,28 @@
 	</header>
 
 <section>
-  <form>
-    <h1>Login</h1>
-    <label for="account">Account</label><br>
-    <input type="text" placeholder="Enter your account"><br>
-    <label for="password">Password</label>
-    <div class="login-input-forgetpassword">
-      <div class="login-password-input">
-        <input type="password" placeholder="Enter your password">
-        <img src="/icon/eye_close.svg" alt="Hide">
-      </div>
-      <a href="#">Forget Password?</a>
-    </div>
+  <div class="product-img">
+    <img src="/icon/products/VitalPaws Formula.png" alt="Product Img">
     <div>
-      <input class="login-button" type="submit" value="Login">
-      <div class="login-signup">
-        <p>Not a member yet?</p>
-        <a href="signup.html">Sign Up Now</a>
-      </div>
+      <img src="/icon/products/VitalPaws Formula.png" alt="Product Img">
+      <img src="/icon/products/VitalPaws Formula.png" alt="Product Img">
+      <img src="/icon/products/VitalPaws Formula.png" alt="Product Img">
     </div>
-  </form>
+  </div>
+  <div class="product-detail">
+    <h2>VitalPaws Formula</h2>
+    <p>Price</p>
+    <div class="product-price">
+      <h4>$599</h4>
+      <p><del>$899</del></p>
+    </div>
+    <div class="product-info">
+      <h4>- Product Information</h4>
+      <p>Our dog food is made from pure, natural ingredients to keep your dog healthy and happy. No fillers, just the
+        nutrition they need!</p>
+        <button class="add-to-cart" type="submit">Add to Cart</button>
+    </div>
+  </div>
 </section>
 
   <footer>
@@ -215,7 +217,7 @@
     <button class="checkout" type="button">Go to Checkout</button>
   </div>
 
-  <script src="login.js"></script>
+  <script src="productDetail.js"></script>
 </body>
 
 </html>
