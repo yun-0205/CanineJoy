@@ -130,3 +130,20 @@ document.querySelectorAll('.add-cart-btn').forEach((img, index) => {
     let currentValue = parseInt(quantityInput.value) || 1;
     quantityInput.value = currentValue + 1;
   });
+
+//Product Detail
+const urlParams = new URLSearchParams(window.location.search);
+const productId = parseInt(urlParams.get('id'));
+
+const product = products.find(item => item.id === productId);
+
+if (product) {
+
+  document.querySelector('.main-img').src = product.img;
+  document.querySelector('.productName').textContent = product.name;
+  document.querySelector('.discount-price').textContent = `$${product.discountPrice}`;
+  document.querySelector('.orgin-price').textContent = `$${product.orginPrice}`;
+} else {
+
+  document.querySelector('.product').textContent = "Product not found";
+}
