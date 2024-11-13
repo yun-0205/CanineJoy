@@ -261,7 +261,7 @@ form input::placeholder {
 	cursor: pointer;
 }
 
-.login-button {
+.signup-button {
   width: 400px;
   height: 40px;
   border-radius: 10px;
@@ -274,8 +274,13 @@ form input::placeholder {
 	margin-bottom: 16px;
 }
 
-.login-button:hover {
+.signup-button:hover {
 	background-color: var(--primary-600);
+}
+
+.signup-button:disabled {
+	background-color: var(--disabled-500);
+	cursor: not-allowed;
 }
 
 .login-signup {

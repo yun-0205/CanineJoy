@@ -113,3 +113,11 @@ document.querySelectorAll('.add-cart-btn').forEach((img, index) => {
     });
   });
 });
+
+//Sign up checkbox
+const termsCheckbox = document.querySelector('.terms-checkbox');
+const signUpButton = document.querySelector('.signup-button');
+
+termsCheckbox.addEventListener('change', function () {
+  signUpButton.disabled = !termsCheckbox.checked;
+});

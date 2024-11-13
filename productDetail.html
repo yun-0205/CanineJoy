@@ -44,7 +44,7 @@
           <div class="cart-badge">0</div>
         </div>
 				<div class="header-profile">
-					<img src="/icon/account.svg" alt="Account Img">
+					<img src="/icon/profile.svg" alt="Account Img">
 					<img src="/icon/arrow_down.svg" alt="Arrow">
 				</div>
 			</div>
@@ -54,7 +54,7 @@
 <section>
   <div class="product-img">
     <img src="/icon/products/VitalPaws Formula.png" alt="Product Img">
-    <div>
+    <div class="img-picker">
       <img src="/icon/products/VitalPaws Formula.png" alt="Product Img">
       <img src="/icon/products/VitalPaws Formula.png" alt="Product Img">
       <img src="/icon/products/VitalPaws Formula.png" alt="Product Img">
@@ -64,14 +64,21 @@
     <h2>VitalPaws Formula</h2>
     <p>Price</p>
     <div class="product-price">
-      <h4>$599</h4>
+      <h2>$599</h2>
       <p><del>$899</del></p>
     </div>
     <div class="product-info">
       <h4>- Product Information</h4>
       <p>Our dog food is made from pure, natural ingredients to keep your dog healthy and happy. No fillers, just the
         nutrition they need!</p>
-        <button class="add-to-cart" type="submit">Add to Cart</button>
+        <div class="quantity-picker-with-button">
+          <div class="quantity-picker">
+            <button class="decrease-button" type="button">-</button>
+            <input class="quantity-input" type="number" value="1">
+            <button class="increase-button" type="button">+</button>
+          </div>
+          <button class="add-to-cart" type="submit">Add to Cart</button>
+        </div>
     </div>
   </div>
 </section>

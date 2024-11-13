@@ -252,6 +252,10 @@ header {
   text-overflow: ellipsis;
 }
 
+.products-item a {
+	text-decoration: none;
+}
+
 .products-item h2:hover::after {
 	background-color: var(--text-primary);
 	color: var(--text-white);

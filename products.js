@@ -41,40 +41,88 @@ document.addEventListener('click', function(event) {
 //Product
 const products = [
   {
+    id: 1,
     img: "/icon/products/VitalPaws Formula.png",
     name: "VitalPaws Formula",
     orginPrice: 899,
     discountPrice: 599,
   },
   {
+    id: 2,
     img: "/icon/products/NatureBite Blend.png",
     name: "NatureBite Blend",
     orginPrice: 1200,
     discountPrice: 1090,
   },
   {
+    id: 3,
     img: "/icon/products/HealthyTails Select.png",
     name: "HealthyTails Select",
     orginPrice: 1080,
     discountPrice: 690,
   },
   {
+    id: 4,
     img: "/icon/products/PureLife Kibble.png",
     name: "PureLife Kibble",
     orginPrice: 799,
     discountPrice: 750,
   },
   {
+    id: 5,
     img: "/icon/products/ActivePaws Nutrition.png",
     name: "ActivePaws Nutrition",
     orginPrice: 1390,
     discountPrice: 890,
   },
   {
+    id: 6,
     img: "/icon/products/WholesomeBite Recipe.png",
     name: "WholesomeBite Recipe",
     orginPrice: 999,
     discountPrice: 690,
+  },
+  {
+    id: 7,
+    img: "/icon/products/CanineVital Complete.png",
+    name: "CanineVital Complete",
+    orginPrice: 1090,
+    discountPrice: 999,
+  },
+  {
+    id: 8,
+    img: "/icon/products/NutriTails Essentials.png",
+    name: "NutriTails Essentials",
+    orginPrice: 1099,
+    discountPrice: 899,
+  },
+  {
+    id: 9,
+    img: "/icon/products/FreshPaw Naturals.png",
+    name: "FreshPaw Naturals",
+    orginPrice: 1090,
+    discountPrice: 799,
+  },
+  {
+    id: 10,
+    img: "/icon/products/TailBlend Pro.png",
+    name: "TailBlend Pro",
+    orginPrice: 1299,
+    discountPrice: 1200,
+  },
+  {
+    id: 11,
+    img: "/icon/products/PawPerfection Formula.png",
+    name: "PawPerfection Formula",
+    orginPrice: 1199,
+    discountPrice: 990,
+  },
+  {
+    id: 12,
+    img: "/icon/products/PrimeBites Complete.png",
+    name: "PrimeBites Complete",
+    orginPrice: 999,
+    discountPrice: 649,
   },
 ]
 
@@ -82,8 +130,10 @@ let html = "";
 for (let i = 0; i < products.length; i++) {
   html += `        
       <div>
-        <img class="products-img" src="${products[i].img}" alt="Products img">
-        <h2>${products[i].name}</h2>
+        <a href="productDetail.html?id=${products[i].id}">
+          <img class="products-img" src="${products[i].img}" alt="Products img">
+          <h2>${products[i].name}</h2>
+        </a>
         <div class="products-price-bag">
           <div class="products-price-title">
             <p>Price</p>
@@ -97,7 +147,6 @@ for (let i = 0; i < products.length; i++) {
       </div>
       `;
 }
-
 document.querySelector(".products-item").innerHTML = html;
 
 //Cart dropdown

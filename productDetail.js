@@ -113,3 +113,20 @@ document.querySelectorAll('.add-cart-btn').forEach((img, index) => {
     });
   });
 });
+
+  // Quantity Picker
+  const decreaseButton = document.querySelector('.decrease-button');
+  const increaseButton = document.querySelector('.increase-button');
+  const quantityInput = document.querySelector('.quantity-input');
+
+  decreaseButton.addEventListener('click', () => {
+    let currentValue = parseInt(quantityInput.value) || 1;
+    if (currentValue > 1) {
+      quantityInput.value = currentValue - 1;
+    }
+  });
+
+  increaseButton.addEventListener('click', () => {
+    let currentValue = parseInt(quantityInput.value) || 1;
+    quantityInput.value = currentValue + 1;
+  });
