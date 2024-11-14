@@ -1,3 +1,5 @@
+import data from './data.json' with { type: 'json' };
+const products = data.products
 //Header dropdown profile
 const headerProfile = document.querySelector('.header-profile');
 const dropdownProfile = document.querySelector('.account-profile-login');
