@@ -140,13 +140,18 @@ increaseButton.addEventListener('click', () => {
 });
 
 // Product Detail
-if (product) {
+const imgPicker = document.querySelectorAll('.img-picker img');
 
+if (product) {
   document.querySelector('.main-img').src = product.img;
   document.querySelector('.productName').textContent = product.name;
   document.querySelector('.discount-price').textContent = `$${product.discountPrice}`;
   document.querySelector('.orgin-price').textContent = `$${product.orginPrice}`;
-} else {
 
+  imgPicker.forEach((img, index) => {
+    img.src = product.imgs[index];
+  });
+  
+} else {
   document.querySelector('.product').textContent = "Product not found";
 }

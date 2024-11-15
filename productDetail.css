@@ -182,6 +182,10 @@ section {
 	opacity: 1;
 }
 
+.img-picker img:hover {
+	opacity: 1;
+}
+
 .product-detail > h2 {
 	color: var(--text-primary);
 	font-size: var(--H2-24);
@@ -193,12 +197,6 @@ section {
 	color: var(--text-primary);
 	font-size: var(--B1-16);
 	font-weight: var(--regular);
-}
-
-.footer-logo-title {
-	display: flex;
-	margin-bottom: 16px;
-	cursor: pointer;
 }
 
 .product-price {
@@ -300,6 +298,12 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .add-to-cart:hover {
 	background-color: var(--primary-600);
+}
+
+.footer-logo-title {
+	display: flex;
+	margin-bottom: 16px;
+	cursor: pointer;
 }
 
 .footer-logo-title h1 {

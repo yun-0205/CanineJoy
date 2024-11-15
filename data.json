@@ -3,6 +3,11 @@
     {
       "id": 1,
       "img": "/icon/products/VitalPaws Formula.png",
+      "imgs": [
+        "/icon/products/VitalPaws Formula.png",
+        "/icon/products/VitalPaws Formula.png",
+        "/icon/products/VitalPaws Formula.png"
+      ],
       "name": "VitalPaws Formula",
       "orginPrice": 899,
       "discountPrice": 599
@@ -10,6 +15,11 @@
     {
       "id": 2,
       "img": "/icon/products/NatureBite Blend.png",
+      "imgs": [
+        "/icon/products/NatureBite Blend.png",
+        "/icon/products/NatureBite Blend.png",
+        "/icon/products/NatureBite Blend.png"
+      ],
       "name": "NatureBite Blend",
       "orginPrice": 1200,
       "discountPrice": 1090
@@ -17,6 +27,11 @@
     {
       "id": 3,
       "img": "/icon/products/HealthyTails Select.png",
+      "imgs": [
+        "/icon/products/HealthyTails Select.png",
+        "/icon/products/HealthyTails Select.png",
+        "/icon/products/HealthyTails Select.png"
+      ],
       "name": "HealthyTails Select",
       "orginPrice": 1080,
       "discountPrice": 690
@@ -24,6 +39,11 @@
     {
       "id": 4,
       "img": "/icon/products/PureLife Kibble.png",
+      "imgs": [
+        "/icon/products/PureLife Kibble.png",
+        "/icon/products/PureLife Kibble.png",
+        "/icon/products/PureLife Kibble.png"
+      ],
       "name": "PureLife Kibble",
       "orginPrice": 799,
       "discountPrice": 750
@@ -31,6 +51,11 @@
     {
       "id": 5,
       "img": "/icon/products/ActivePaws Nutrition.png",
+      "imgs": [
+        "/icon/products/ActivePaws Nutrition.png",
+        "/icon/products/ActivePaws Nutrition.png",
+        "/icon/products/ActivePaws Nutrition.png"
+      ],
       "name": "ActivePaws Nutrition",
       "orginPrice": 1390,
       "discountPrice": 890
@@ -38,6 +63,11 @@
     {
       "id": 6,
       "img": "/icon/products/WholesomeBite Recipe.png",
+      "imgs": [
+        "/icon/products/WholesomeBite Recipe.png",
+        "/icon/products/WholesomeBite Recipe.png",
+        "/icon/products/WholesomeBite Recipe.png"
+      ],
       "name": "WholesomeBite Recipe",
       "orginPrice": 999,
       "discountPrice": 690
@@ -45,6 +75,11 @@
     {
       "id": 7,
       "img": "/icon/products/CanineVital Complete.png",
+      "imgs": [
+        "/icon/products/CanineVital Complete.png",
+        "/icon/products/CanineVital Complete.png",
+        "/icon/products/CanineVital Complete.png"
+      ],
       "name": "CanineVital Complete",
       "orginPrice": 1090,
       "discountPrice": 999
@@ -52,6 +87,11 @@
     {
       "id": 8,
       "img": "/icon/products/NutriTails Essentials.png",
+      "imgs": [
+        "/icon/products/NutriTails Essentials.png",
+        "/icon/products/NutriTails Essentials.png",
+        "/icon/products/NutriTails Essentials.png"
+      ],
       "name": "NutriTails Essentials",
       "orginPrice": 1099,
       "discountPrice": 899
@@ -59,6 +99,11 @@
     {
       "id": 9,
       "img": "/icon/products/FreshPaw Naturals.png",
+      "imgs": [
+        "/icon/products/FreshPaw Naturals.png",
+        "/icon/products/FreshPaw Naturals.png",
+        "/icon/products/FreshPaw Naturals.png"
+      ],
       "name": "FreshPaw Naturals",
       "orginPrice": 1090,
       "discountPrice": 799
@@ -66,6 +111,11 @@
     {
       "id": 10,
       "img": "/icon/products/TailBlend Pro.png",
+      "imgs": [
+        "/icon/products/TailBlend Pro.png",
+        "/icon/products/TailBlend Pro.png",
+        "/icon/products/TailBlend Pro.png"
+      ],
       "name": "TailBlend Pro",
       "orginPrice": 1299,
       "discountPrice": 1200
@@ -73,6 +123,11 @@
     {
       "id": 11,
       "img": "/icon/products/PawPerfection Formula.png",
+      "imgs": [
+        "/icon/products/PawPerfection Formula.png",
+        "/icon/products/PawPerfection Formula.png",
+        "/icon/products/PawPerfection Formula.png"
+      ],
       "name": "PawPerfection Formula",
       "orginPrice": 1199,
       "discountPrice": 990
@@ -80,6 +135,11 @@
     {
       "id": 12,
       "img": "/icon/products/PrimeBites Complete.png",
+      "imgs": [
+        "/icon/products/PrimeBites Complete.png",
+        "/icon/products/PrimeBites Complete.png",
+        "/icon/products/PrimeBites Complete.png"
+      ],
       "name": "PrimeBites Complete",
       "orginPrice": 999,
       "discountPrice": 649
