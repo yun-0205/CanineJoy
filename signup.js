@@ -1,4 +1,4 @@
-//Header dropdown profile
+// Header dropdown profile
 const headerProfile = document.querySelector('.header-profile');
 const dropdownProfile = document.querySelector('.account-profile-logout');
 
@@ -18,7 +18,7 @@ document.addEventListener('click', function(event) {
   }
 });
 
-//Mobile menu
+// Mobile menu
 function showMenu() {
   document.querySelector('.overlay').style.display = 'block';
   document.querySelector('.mobile-menu-logout').style.display = 'block';
@@ -38,7 +38,7 @@ document.addEventListener('click', function(event) {
   }
 });
 
-//Cart dropdown
+// Cart dropdown
 const headerBag = document.querySelector('.header-bag-icon');
 const dropdownCart = document.querySelector('.dropdown-cart');
 
@@ -58,7 +58,7 @@ document.addEventListener('click', function(event) {
   }
 });
 
-//Cart product list
+// Cart product list
 const emptyCart = document.querySelector('.empty-cart');
 const cart = [];
 const cartBadge = document.querySelector('.cart-badge');
@@ -105,7 +105,7 @@ document.querySelectorAll('.add-cart-btn').forEach((img, index) => {
       cartCount--;
       cartBadge.textContent = cartCount;
 
-      //Cart empty
+      // Cart empty
       if (cartCount === 0) {
         cartBadge.style.display = 'none';
         emptyCart.style.display = 'block';
@@ -114,7 +114,7 @@ document.querySelectorAll('.add-cart-btn').forEach((img, index) => {
   });
 });
 
-//Sign up checkbox
+// Sign up checkbox
 const termsCheckbox = document.querySelector('.terms-checkbox');
 const signUpButton = document.querySelector('.signup-button');
 

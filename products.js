@@ -1,5 +1,5 @@
 import data from './data.json' with { type: 'json' };
-//Header dropdown profile
+// Header dropdown profile
 const headerProfile = document.querySelector('.header-profile');
 const dropdownProfile = document.querySelector('.account-profile-login');
 
@@ -19,7 +19,7 @@ document.addEventListener('click', function(event) {
   }
 });
 
-//Mobile menu
+// Mobile menu
 function showMenu() {
   document.querySelector('.overlay').style.display = 'block';
   document.querySelector('.mobile-menu-login').style.display = 'block';
@@ -39,7 +39,7 @@ document.addEventListener('click', function(event) {
   }
 });
 
-//Product
+// Product
 const products = data.products
 
 let html = "";
@@ -65,7 +65,7 @@ for (let i = 0; i < products.length; i++) {
 }
 document.querySelector(".products-item").innerHTML = html;
 
-//Cart dropdown
+// Cart dropdown
 const headerBag = document.querySelector('.header-bag-icon');
 const dropdownCart = document.querySelector('.dropdown-cart');
 
@@ -85,7 +85,7 @@ document.addEventListener('click', function(event) {
   }
 });
 
-//Cart product list
+// Cart product list
 const emptyCart = document.querySelector('.empty-cart');
 const cart = [];
 const cartBadge = document.querySelector('.cart-badge');
@@ -132,7 +132,7 @@ document.querySelectorAll('.add-cart-btn').forEach((img, index) => {
       cartCount--;
       cartBadge.textContent = cartCount;
 
-      //Cart empty
+      // Cart empty
       if (cartCount === 0) {
         cartBadge.style.display = 'none';
         emptyCart.style.display = 'block';
